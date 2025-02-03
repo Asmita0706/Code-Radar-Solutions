@@ -1,13 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(!(a>0)&&!(b>0))
-    {
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+    int i,j,k;
+    scanf("%d %d %d",&i,&j,&k);
+    printf("Average: %.2f",(i+j+k)/3.0);
+    return 0;
 }
