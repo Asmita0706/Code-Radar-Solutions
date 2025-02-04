@@ -13,9 +13,10 @@ int main()
     }
     else if(a=='!'|| a=='@'|| a=='#'|| a=='$'|| a=='%'|| a=='&'|| a=='*'|| a=='('|| a==')')
     {
-        printf("Special Character")
+        printf("Special Character");
     }
     else{
-        printf("Consonant")
+        printf("Consonant");
     }
+    return 0;
 }
