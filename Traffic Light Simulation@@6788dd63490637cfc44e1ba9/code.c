@@ -7,7 +7,7 @@ int main()
     {
         printf("Stop");
     }
-    else if(a=='G')
+    else if(a==G)
     {
         printf("Go");
     }
