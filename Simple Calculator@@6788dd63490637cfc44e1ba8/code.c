@@ -26,7 +26,7 @@ int main()
         }
     }
     else{
-        printf("Error")
+        printf("Error");
     }
     return 0;
 }
