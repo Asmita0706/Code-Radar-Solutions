@@ -3,6 +3,6 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    pritnf(a|b);
+    pritnf("%d %d",a|b);
     return 0;
 }
