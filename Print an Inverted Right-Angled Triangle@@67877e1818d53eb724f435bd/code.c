@@ -9,7 +9,7 @@ for(int i =0;i< rows;i++)
     {
         printf("* ");
     }
-    printf("/n");
+    printf("\n");
 }
 return 0;
 }
