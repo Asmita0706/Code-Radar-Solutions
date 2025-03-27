@@ -2,13 +2,13 @@
 int main()
 {
     int i, j, rows;
-    printf(" ");
+    printf("");
     scanf("%d",&rows);
     for (i=rows;i>=1;i--)
     {
         for(j=1;j<=i;j++)
         {
-            printf("%d",j);
+            printf("%d ",j);
         }
         printf("\n");
     }
