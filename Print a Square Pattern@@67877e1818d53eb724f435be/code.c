@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int rows;
-    scanf("%d",&rows);
-    for(int i= 0; i< rows;i++)
+    int n;
+    printf("");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
     {
-    for(int j=0; j < rows;j++ )
-    {
-        printf("* ");
+        for(int j=1;j<=n;j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
     }
-    printf("\n");
-}
-return 0;
+    return 0;
 }
