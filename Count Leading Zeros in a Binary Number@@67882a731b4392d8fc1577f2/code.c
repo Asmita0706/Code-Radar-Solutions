@@ -1,7 +1,7 @@
 #include<stdio.h>
 int countleadingzeros(unsigned int num){
 int count = 0;
-for(int i=31;i<=0;i--){
+for(int i=31;i>=0;i--){
     if((num>>i)&1)
     break;
     count++;
