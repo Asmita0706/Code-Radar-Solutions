@@ -2,10 +2,10 @@
 int main()
 {
     int num, result;
-    printf("Enter an integer: ");
+    printf(" ");
     scanf("%d",&num);
     result = ~num;
-    printf("Original number: %d\n", num);
-    printf("One's complement: %d\n", result);
+    printf("%d\n", num);
+    printf("%d\n", result);
     return 0;
 }
