@@ -7,5 +7,5 @@ int main()
     result = ~num;
     printf("Original number: %d\n", num);
     printf("One's complement: %d\n", result);
-    retuen 0;
+    return 0;
 }
