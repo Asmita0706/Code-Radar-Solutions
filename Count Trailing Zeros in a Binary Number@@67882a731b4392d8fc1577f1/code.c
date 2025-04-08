@@ -17,11 +17,11 @@ int main() {
     unsigned int num;
 
     // Get input from user
-    printf("Enter an unsigned integer: ");
+    printf("");
     scanf("%u", &num);
 
     int trailingZeros = countTrailingZeros(num);
-    printf("Number of trailing zeros: %d\n", trailingZeros);
+    printf("%d", trailingZeros);
 
     return 0;
 }
